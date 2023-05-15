@@ -1,4 +1,16 @@
 .Imagenes {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.Fuego {
+    color: red;
+}
+
+.Planta {
+    color: green;
+}
+
+.Agua {
+    color: blue;
 }
