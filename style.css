@@ -1,6 +1,16 @@
 .Imagenes {
     width: 100px;
-    /*Ancho*/
     height: 100px;
-    /*Alto*/
+}
+
+.Fuego {
+    color: red;
+}
+
+.Planta {
+    color: green;
+}
+
+.Agua {
+    color: blue;
 }
