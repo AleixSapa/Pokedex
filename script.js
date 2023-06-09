@@ -2,7 +2,7 @@ function MostrarMensajeEvolucion(NombrePokemon) {
     var Nivel;
     if (NombrePokemon == 'Bulbasaur') {
         Nivel = 16;
-    } else if (NombrePokemon == 'Ivysaur') {
+    } else if (NombrePokemon == 'Ivisaur') {
         Nivel = 32;
     } else if (NombrePokemon == 'Venusaur') {
         Nivel = 0;
@@ -303,14 +303,14 @@ function MostrarMensajeEvolucion(NombrePokemon) {
     } else if (NombrePokemon == 'Mew') {
         Nivel = 0; // Mew no tiene evolución
     } else {
-        Nivel = -1; // Si no se encuentra el Pokémon, se devuelve -1
+        Nivel = 0; // Si no se encuentra el Pokémon, se devuelve -1
     }
 
     if (Nivel > 0) {
-        console.log(NombrePokemon + ' evoluciona al nivel ' + Nivel);
-    } else if (Nivel == 0) {
-        console.log(NombrePokemon + ' no tiene más evoluciones');
-    } else {
-        console.log('No se encontró el Pokémon ' + NombrePokemon);
+
+        alert(NombrePokemon + ' evoluciona al nivel ' + Nivel)
+    }
+    else if (Nivel == 0) {
+        alert(NombrePokemon + ' no tiene mas evoluciones');
     }
 }
